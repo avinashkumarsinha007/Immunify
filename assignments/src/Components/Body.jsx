@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Card } from "./Card";
 import { Card2 } from "./Card2";
+import styles from "../Css/Body.module.css"
 
 let data1 = [
     {
@@ -107,6 +108,19 @@ export const Body = () => {
                             })
                         }
                     </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://immunifyme.com/img/pitch1.svg" alt="immunify"/>
+                    </div>
+                    <div>
+                        <p>Your Private Data Remains Private</p>
+                        <p>Your health files always remain encrypted with us and we never use it in any external promotions. Be reassured that we are both GDPR and HIPAA compliant platforms, if that satisfies your curious soul.</p>
+                        <div>And all this is absolutely free of charge!</div>
+                    </div>
+                </div>
+                <div>
+                    <h1>Awards & Grants</h1>
                 </div>
             </div>
             </>
