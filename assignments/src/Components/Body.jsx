@@ -70,15 +70,14 @@ export const Body = () => {
     return (
         <>
             <div>
-                <div>
-                    <div>
-                <img src="https://immunifyme.com/img/banner/doc_banner-mobile.jpeg" alt=""/>
+                <div className={styles.container}>
+                    <div className={styles.banner_img}>
+                      <img src="https://immunifyme.com/img/banner/doc_banner-mobile.jpeg" alt="banner"/>
                     </div>
-                    <div>
-                        <p></p>
-                        <p></p>
-                        <div>
-                            <div>
+                    <div className={styles.banner_text}>
+                        <p className={styles.header_banner}>Miraculous creation,for <br/>your <span className={styles.bolder}>little patient!</span> </p>
+                        <div className={styles.banner_content}>
+                            <div className={styles.margin_right}>
                                 <img src="https://immunifyme.com/img/icons/apple-store.svg" alt="apple store"/>
                             </div>
                             <div>
@@ -87,8 +86,8 @@ export const Body = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <p>GET STARTED TODAY</p>
+                <div className={styles.container2}>                   
+                    <p className={styles.heading_container2}>GET STARTED TODAY</p>
                     <p>Smarter Digitization,<br />Leads to Better Immunization</p>
                     <div>
                         {

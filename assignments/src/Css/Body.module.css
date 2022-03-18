@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.banner_img{
+    margin-top: -10vh;
+    width: 50%;
+    text-align: right;
+}
+
+.banner_text{
+    margin-top: 10vh;
+    width: 50%;
+    text-align: start;
+}
+
+.header_banner{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    color:#8f479b;
+}
+
+.bolder{
+    font-weight: 700;
+    color:#d88284;
+}
+
+.banner_content{
+    display: flex;
+    margin-top: 4.5vh;
+}
+
+.margin_right{
+    margin-right: 2vw;
+}
+
+.container2{
+    margin-top: 1vh;
+}
+
+.heading_container2{
+    font-size: 1.5rem;
+    letter-spacing: .05rem;
+}
